@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            margin: 0 0;
+        }
+        li{
+            list-style-type: none;
+        }
+        .main{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .clearance{
+            width: 100%;
+            height: 200px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td{
+            width: 25%;
+        }
+        table td, table th{
+            border: 1px solid #ccc;
+        }
+        table tbody .oneLine td{
+            height: 40px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+        table tbody .oneLine td div{
+            padding-bottom: 5px;
+        }
+        table tbody .twoLine td{
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        table tbody .twoLine td div{
+            font-size: 36px;
+        }
+        table tbody .threeLine td{
+            height: 40px;
+            text-align: right;
+            vertical-align: bottom;
+        }
+        table tbody .threeLine td div{
+            position: relative;
+            height: 100%;
+        }
+        table tbody .threeLine td div .first{
+            right: 50px;
+            bottom: 3px;
+            position: absolute;
+        }
+        table tbody .threeLine td div .second{
+            right: 5px;
+            bottom: 3px;
+            position: absolute;
+        }
+        table tbody .fourLine td{
+            height: 40px;
+            position: relative;
+        }
+        table tbody .fourLine td div{
+            position: absolute;
+            right: 0;
+            bottom: 5px;
+            width: 100px;
+            height: 20px;
+        }
+        table tbody .fourLine td div span{
+            float: left;
+        }
+        table tbody .fourLine td div span.first{
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="clearance"></div>
+
+    <div class="main">
+        <table>
+            <tbody>
+                <tr class="oneLine">
+                    <td><div>id</div></td>
+                    <td><div>name</div></td>
+                    <td><div>age</div></td>
+                    <td><div>fex</div></td>
+                </tr>
+                <tr class="twoLine">
+                    <td><div>1</div></td>
+                    <td><div>one</div></td>
+                    <td><div>21</div></td>
+                    <td><div>n</div></td>
+                </tr>
+                <tr class="threeLine">
+                    <td><div><span class="first">同比:</span><span class="second">6.75%</span></div></td>
+                    <td><div><span class="first">同比:</span><span class="second">60%</span></div></td>
+                    <td><div><span class="first">同比:</span><span class="second">70%</span></div></td>
+                    <td><div><span class="first">同比:</span><span class="second">80%</span></div></td>
+                </tr>
+                <tr class="fourLine">
+                    <td><div><span class="first">环比:</span><span class="second">65.2%</span></div></td>
+                    <td><div><span class="first">环比:</span><span class="second">61.7%</span></div></td>
+                    <td><div><span class="first">环比:</span><span class="second">80%</span></div></td>
+                    <td><div><span class="first">环比:</span><span class="second">75%</span></div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+</html>
