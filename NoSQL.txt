@@ -1,0 +1,3 @@
+Redis书籍：
+http://redisbook.com/
+https://github.com/huangz1990/redis-3.0-annotated
