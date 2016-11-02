@@ -2,3 +2,6 @@ Redis书籍：
 http://redisbook.com/
 https://github.com/huangz1990/redis-3.0-annotated
 http://doc.redisfans.com/index.html
+
+redis存储与计算:日活,留存,老用户等统计数据
+http://sanwen8.cn/p/290kODz.html
